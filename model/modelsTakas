@@ -1,0 +1,18 @@
+usermodel
+    fullname        -> String
+    email           -> String
+    password        -> String
+    cart            -> array
+    isadmin         -> boolean
+    order           -> array
+    contact         -> Number
+    picture         -> DB
+
+productmodel
+    image           ->
+    name
+    price
+    discount
+    bgColor
+    panelcolor
+    textcolor
