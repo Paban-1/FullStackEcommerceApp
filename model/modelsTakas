@@ -16,3 +16,11 @@ productmodel
     bgColor         -> String
     panelcolor      -> String
     textcolor       -> String
+
+ownermodel
+    fullname        -> {type: String, minLengt:3, trim: true}
+    email           -> String
+    password        -> String
+    products        -> {type: Aray, default:[]}
+    picture         -> String
+    gstin           -> String
