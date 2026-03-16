@@ -6,13 +6,13 @@ usermodel
     isadmin         -> boolean
     order           -> array
     contact         -> Number
-    picture         -> DB
+    picture         -> String
 
 productmodel
-    image           ->
-    name
-    price
-    discount
-    bgColor
-    panelcolor
-    textcolor
+    image           -> String
+    name            -> String
+    price           -> Number
+    discount        -> {type: Number,default:0},
+    bgColor         -> String
+    panelcolor      -> String
+    textcolor       -> String
